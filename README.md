@@ -1,10 +1,17 @@
-Los redactores de las _Siete Partidas_
+Los autores de las _Siete Partidas_: una visión desde la estilomtería
 
-Este repositorio ofrece los textos que se han utlizadoi para el artículo _Los redactores de las «Siete Partidas»_, realziado bajo el proyecto 7PartidasDigital (PID2020-112621GB-I00/AEI/10.13039/501100011033).
+Este repositorio ofrece los textos que se han utlizadoi para el artículo «Los autores de las _Siete Partidas_: una visión desde la estilomtería», realizado bajo el proyecto [7PartidasDigital](https://7partidas.hypotheses.org) (PID2020-112621GB-I00) Financiado por la Agencia Estatal de Investigación: /AEI/10.13039/501100011033) y publicado en la revista [_Philologica Hispalensis_](https://revistascientificas.us.es/index.php/PH/index), 38/2 (2024).
 
-Es una obra en progreso, por lo que los materiales están sujetos a cambios en cualquier momento.
+En el directorio `script` se hay dos ficheros `recuentos_basicos.R`que hace una serie de recuentos elementales (cantidad de tokens y tipos que hay en cada titulo. Este `script` exige tener instalada la librería `tidyverse` y `tidytext`. `PARTIDAS_autoria.R` lleva a cabo el análisis `rolling.classify`. Para poderlo llevar a cabo, así como cual quiera de los otros análisis presentados en el artículo, es necesario tener la librería `stylo`.
 
-Se añadirá información de cómo usar cada uno de los directorios. La librería que se ha de tener es _stylo_ para R.
+El directorio `corpus-titulos` contiene el texto se las _Siete Partidas_ dividido por títulos. El nombre de estos ficheros sigue el patrón `n-xx.txt`, donde `n` indica la Partida y `xx` los títulos.
+
+El directorio `corpus-lopez` contiene el texto se las _Siete Partidas_ dividido por _Partida_.
+El directorio `reference_set` contiene cada una de las _Siete Partidas_ y el directorio `test_set` contiene un único fichero que contiene el texto de las _Siete Partidas_. Estos dos directorios se han de emplear como se indican en el `script` titulado `PARTIDAS_autoria.R` y de acuerdo con las explicaciones dentro del artículo.
+
+Todos esgtos ficheros son de texto plano con condificación UTF-8 y LF (UNIX).
+
+Todos los análisis se hacen sobre el texto de la edición publicada por Gregorio López en 1555, la cual ha sido transcrita y etiquetada por el equipo de 7PartidasDigital y que se encuentra en accesible en Fradejas Rueda, J. M. (2018). 7PartidasDigital/XML-TEI (v.0.2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.1299569.
 
 Los materiales se ofrece bajo una licencia Attribution 4.0 International (CC BY 4.0)
 
