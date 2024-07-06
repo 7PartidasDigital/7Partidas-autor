@@ -2,7 +2,7 @@ library(stylo)
 
 # Esta sección lee el fichero que haya en el test_set y localiza los
 # puntos en que comienza cada Partida y cada Título, los cuales están
-# marcado con el signo del euro -€-
+# marcados con el signo del euro -€-
 texto <- readLines("test_set/7Partidas.txt")
 texto <- paste(texto, collapse = " ")
 texto <- unlist(strsplit(texto, " "))
