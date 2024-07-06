@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/675071641.svg)](https://zenodo.org/doi/10.5281/zenodo.12674161)
 # Los autores de las _Siete Partidas_: una visión desde la estilometría
 
 Este repositorio ofrece los textos que se han utlizadoi para el artículo «Los autores de las _Siete Partidas_: una visión desde la estilomtería», realizado bajo el proyecto [7PartidasDigital](https://7partidas.hypotheses.org) (PID2020-112621GB-I00) Financiado por la Agencia Estatal de Investigación: /AEI/10.13039/501100011033) y publicado en la revista [_Philologica Hispalensis_](https://revistascientificas.us.es/index.php/PH/index), 38/2 (2024).
